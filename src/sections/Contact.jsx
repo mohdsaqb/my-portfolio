@@ -34,7 +34,8 @@ export default function Contact() {
       );
       setStatus('success');
       formRef.current.reset();
-    } catch {
+    } catch (err) {
+      console.error('EmailJS send failed:', err);
       setStatus('error');
     } finally {
       setTimeout(() => setStatus('idle'), 4000);
