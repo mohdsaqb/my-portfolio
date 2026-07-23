@@ -52,6 +52,51 @@ html.light ::-webkit-scrollbar-track {
   background: #f1f5f9;
 }
 
+/* Light-mode overrides for the dark-first color utilities used throughout
+   the components (text-white, text-gray-*, bg-white/*, bg-card, bg-bg, ...).
+   Components were authored against the dark palette directly instead of
+   using Tailwind's `dark:` variant, so we flip the same literal utility
+   classes here rather than touching every file. */
+html.light .text-white {
+  color: #0f172a;
+}
+html.light .text-gray-200 {
+  color: #1e293b;
+}
+html.light .text-gray-300 {
+  color: #334155;
+}
+html.light .text-gray-400 {
+  color: #475569;
+}
+html.light .text-gray-500,
+html.light .text-gray-600 {
+  color: #64748b;
+}
+html.light .border-white\/10 {
+  border-color: rgba(15, 23, 42, 0.1);
+}
+html.light .border-gray-600 {
+  border-color: #cbd5e1;
+}
+html.light .bg-white\/5 {
+  background-color: rgba(15, 23, 42, 0.04);
+}
+html.light .bg-white\/10 {
+  background-color: rgba(15, 23, 42, 0.06);
+}
+html.light .bg-card,
+html.light .bg-card\/80 {
+  background-color: #ffffff;
+}
+html.light .bg-bg,
+html.light .bg-bg\/95 {
+  background-color: rgba(248, 250, 252, 0.95);
+}
+html.light .shadow-card {
+  box-shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+}
+
 /* Hide native cursor when custom cursor is active (desktop, fine pointers only) */
 @media (pointer: fine) {
   .custom-cursor-active,
