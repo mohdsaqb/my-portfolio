@@ -15,7 +15,7 @@ export const PERSONAL = {
     'I build scalable full-stack applications, interactive user experiences, and AI-powered solutions. Passionate about solving real-world problems through modern web technologies.',
   email: 'mo.saqib369@gmail.com',
   phone: '+91 9140579796',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: './resume.pdf',
   location: 'New Delhi, India',
 };
 
@@ -37,12 +37,10 @@ export const SOCIAL_LINKS = [
 
 export const CONTACT_CARDS = [
   { label: 'Email', value: 'mo.saqib369@gmail.com', href: 'mailto:mo.saqib369@gmail.com', icon: FiMail },
-  { label: 'Phone', value: '+91 9140579796', href: 'tel:+919140579796', icon: FiPhone },
-  { label: 'LinkedIn', value: '/in/mo-saqib', href: 'https://linkedin.com/', icon: FiLinkedin },
-  { label: 'GitHub', value: '/mohdsaqb', href: 'https://github.com/', icon: FiGithub },
-  { label: 'LeetCode', value: '/mosaqib369', href: 'https://leetcode.com/', icon: SiLeetcode },
-  { label: 'X (Twitter)', value: '@Mohd_Saqib_', href: 'https://x.com/', icon: FiTwitter },
-  { label: 'Portfolio', value: 'mohdsaqib.dev', href: '/', icon: FiCode },
+  { label: 'LinkedIn', value: 'mo-saqib', href: 'https://linkedin.com/mo-saqib', icon: FiLinkedin },
+  { label: 'GitHub', value: 'mohdsaqb', href: 'https://github.com/mohdsaqb', icon: FiGithub },
+  { label: 'LeetCode', value: 'mosaqib369', href: 'https://leetcode.com/mosaqib369', icon: SiLeetcode },
+  { label: 'X (Twitter)', value: '@Mohd_Saqib_', href: 'https://x.com/Mohd_Saqib_', icon: FiTwitter },
 ];
 
 export const ABOUT = {
