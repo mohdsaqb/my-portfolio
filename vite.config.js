@@ -2,10 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// Repo name for the GitHub Pages project page: https://mohdsaqb.github.io/mohd-saqib-portfolio/
+// Repo name for the GitHub Pages project page: https://mohdsaqb.github.io/my-portfolio/
 // Everything below (router basename, manifest start_url/scope, service worker scope)
 // derives from this at build time via `base` / import.meta.env.BASE_URL.
-const BASE_PATH = '/mohd-saqib-portfolio/'
+const BASE_PATH = '/my-portfolio/'
 
 // https://vite.dev/config/
 export default defineConfig({

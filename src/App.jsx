@@ -22,7 +22,7 @@ function App() {
 
       {/* import.meta.env.BASE_URL mirrors vite.config.js `base`, so routing
           keeps working whether the app is served from "/" (dev) or the
-          GitHub Pages project path "/mohd-saqib-portfolio/" (production). */}
+          GitHub Pages project path "/my-portfolio/" (production). */}
       <BrowserRouter basename={import.meta.env.BASE_URL}>
         <a href="#main-content" className="skip-link">
           Skip to main content
