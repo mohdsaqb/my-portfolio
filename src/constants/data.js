@@ -13,8 +13,8 @@ export const PERSONAL = {
   headline: 'Software Engineer | Full Stack Developer | AI Enthusiast | Problem Solver',
   description:
     'I build scalable full-stack applications, interactive user experiences, and AI-powered solutions. Passionate about solving real-world problems through modern web technologies.',
-  email: 'riyanahmad99@gmail.com',
-  phone: '+91 00000 00000',
+  email: 'mo.saqib369@gmail.com',
+  phone: '+91 9140579796',
   resumeUrl: '/resume.pdf',
   location: 'New Delhi, India',
 };
@@ -28,20 +28,20 @@ export const TYPEWRITER_ROLES = [
 ];
 
 export const SOCIAL_LINKS = [
-  { name: 'GitHub', url: 'https://github.com/', icon: FiGithub },
-  { name: 'LinkedIn', url: 'https://linkedin.com/', icon: FiLinkedin },
-  { name: 'LeetCode', url: 'https://leetcode.com/', icon: SiLeetcode },
-  { name: 'X (Twitter)', url: 'https://x.com/', icon: FiTwitter },
-  { name: 'Email', url: 'mailto:riyanahmad99@gmail.com', icon: FiMail },
+  { name: 'GitHub', url: 'https://github.com/mohdsaqb/', icon: FiGithub },
+  { name: 'LinkedIn', url: 'https://linkedin.com/mo-saqib/', icon: FiLinkedin },
+  { name: 'LeetCode', url: 'https://leetcode.com/mosaqib369/', icon: SiLeetcode },
+  { name: 'X (Twitter)', url: 'https://x.com/Mohd_Saqib_/', icon: FiTwitter },
+  { name: 'Email', url: 'mailto:mo.saqib369@gmail.com', icon: FiMail },
 ];
 
 export const CONTACT_CARDS = [
-  { label: 'Email', value: 'riyanahmad99@gmail.com', href: 'mailto:riyanahmad99@gmail.com', icon: FiMail },
-  { label: 'Phone', value: '+91 00000 00000', href: 'tel:+910000000000', icon: FiPhone },
-  { label: 'LinkedIn', value: '/in/mohdsaqib', href: 'https://linkedin.com/', icon: FiLinkedin },
-  { label: 'GitHub', value: '/mohdsaqib', href: 'https://github.com/', icon: FiGithub },
-  { label: 'LeetCode', value: '/mohdsaqib', href: 'https://leetcode.com/', icon: SiLeetcode },
-  { label: 'X (Twitter)', value: '@mohdsaqib', href: 'https://x.com/', icon: FiTwitter },
+  { label: 'Email', value: 'mo.saqib369@gmail.com', href: 'mailto:mo.saqib369@gmail.com', icon: FiMail },
+  { label: 'Phone', value: '+91 9140579796', href: 'tel:+919140579796', icon: FiPhone },
+  { label: 'LinkedIn', value: '/in/mo-saqib', href: 'https://linkedin.com/', icon: FiLinkedin },
+  { label: 'GitHub', value: '/mohdsaqb', href: 'https://github.com/', icon: FiGithub },
+  { label: 'LeetCode', value: '/mosaqib369', href: 'https://leetcode.com/', icon: SiLeetcode },
+  { label: 'X (Twitter)', value: '@Mohd_Saqib_', href: 'https://x.com/', icon: FiTwitter },
   { label: 'Portfolio', value: 'mohdsaqib.dev', href: '/', icon: FiCode },
 ];
 
