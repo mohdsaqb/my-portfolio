@@ -23,7 +23,7 @@ export default function Experience() {
               <div key={exp.company} className="relative flex sm:justify-center">
                 <div
                   className={`w-full sm:w-1/2 pl-12 sm:pl-0 ${
-                    i % 2 === 0 ? 'sm:pr-12 sm:text-right sm:self-start' : 'sm:pl-12 sm:ml-auto'
+                    i % 2 === 0 ? 'sm:pr-12 sm:text-right sm:self-start sm:mr-auto' : 'sm:pl-12 sm:ml-auto'
                   }`}
                 >
                   <Reveal direction={i % 2 === 0 ? 'right' : 'left'}>
