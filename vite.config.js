@@ -50,6 +50,61 @@ export default defineConfig({
           { src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
           { src: 'icons/icon-512-maskable.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
+
+        // Jump-to-section quick actions from a long-press on the installed
+        // app's icon (Android/Windows/ChromeOS). Each `url` is an in-page
+        // hash - the scroll-to-hash effect in App.jsx handles the actual jump.
+        shortcuts: [
+          {
+            name: 'Projects',
+            short_name: 'Projects',
+            description: 'Jump to featured projects',
+            url: `${BASE_PATH}#projects`,
+            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
+          },
+          {
+            name: 'Experience',
+            short_name: 'Experience',
+            description: 'View work experience',
+            url: `${BASE_PATH}#experience`,
+            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
+          },
+          {
+            name: 'Contact',
+            short_name: 'Contact',
+            description: 'Get in touch',
+            url: `${BASE_PATH}#contact`,
+            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
+          },
+          {
+            name: 'Download Resume',
+            short_name: 'Resume',
+            description: 'Open the resume PDF',
+            url: `${BASE_PATH}resume.pdf`,
+            icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }],
+          },
+        ],
+
+        // Screenshots power the richer install dialog Chrome shows on
+        // Android/desktop (a small carousel instead of a bare icon+name).
+        // Real captures of the live app, taken via Playwright against
+        // `npm run preview` - see public/screenshots/.
+        screenshots: [
+          {
+            src: 'screenshots/desktop.png',
+            sizes: '1280x800',
+            type: 'image/png',
+            form_factor: 'wide',
+            label: 'Portfolio home page on desktop',
+          },
+          {
+            src: 'screenshots/mobile.png',
+            sizes: '430x932',
+            type: 'image/png',
+            form_factor: 'narrow',
+            label: 'Portfolio home page on mobile',
+          },
+        ],
       },
 
       includeAssets: [

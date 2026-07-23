@@ -12,6 +12,14 @@ import CommandPalette from './components/effects/CommandPalette';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
 import UpdateToast from './pwa/UpdateToast';
+import useScrollToHash from './hooks/useScrollToHash';
+
+// Needs router context, so it can't live in App() itself - App renders
+// BrowserRouter as a child, it isn't inside it.
+function ScrollToHash() {
+  useScrollToHash();
+  return null;
+}
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -27,6 +35,7 @@ function App() {
         <a href="#main-content" className="skip-link">
           Skip to main content
         </a>
+        <ScrollToHash />
 
         <div className="relative min-h-screen">
           <FloatingBlobs />
