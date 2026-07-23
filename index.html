@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Favicons (SVG first for modern browsers, PNG fallbacks for the rest). -->
+    <!-- %BASE_URL% is replaced by Vite with the configured `base` so these -->
+    <!-- still resolve correctly under the GitHub Pages /repo-name/ subpath. -->
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="%BASE_URL%favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="%BASE_URL%favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="%BASE_URL%apple-touch-icon.png" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0F172A" />
+
+    <!-- Installed-app behavior (standalone, no browser UI) -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Mohd Saqib" />
+    <meta name="application-name" content="Mohd Saqib" />
+
+    <title>Mohd Saqib | Software Engineer &amp; Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Mohd Saqib — Software Engineer, Full Stack Developer and AI Enthusiast. I build scalable full-stack applications, interactive user experiences, and AI-powered solutions."
+    />
+    <meta name="keywords" content="Mohd Saqib, Software Engineer, Full Stack Developer, React Developer, AI Enthusiast, Portfolio, NSUT" />
+    <meta name="author" content="Mohd Saqib" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://mohdsaqb.github.io/mohd-saqib-portfolio/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mohdsaqb.github.io/mohd-saqib-portfolio/" />
+    <meta property="og:site_name" content="Mohd Saqib | Portfolio" />
+    <meta property="og:title" content="Mohd Saqib | Software Engineer & Full Stack Developer" />
+    <meta property="og:description" content="I build scalable full-stack applications, interactive user experiences, and AI-powered solutions." />
+    <meta property="og:image" content="https://mohdsaqb.github.io/mohd-saqib-portfolio/og-image.png" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mohd Saqib | Software Engineer & Full Stack Developer" />
+    <meta name="twitter:description" content="I build scalable full-stack applications, interactive user experiences, and AI-powered solutions." />
+    <meta name="twitter:image" content="https://mohdsaqb.github.io/mohd-saqib-portfolio/og-image.png" />
+
+    <!-- Structured data for richer search results -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Mohd Saqib",
+        "url": "https://mohdsaqb.github.io/mohd-saqib-portfolio/",
+        "jobTitle": "Software Engineer & Full Stack Developer",
+        "sameAs": ["https://github.com/mohdsaqb", "https://linkedin.com/"]
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Restore the real path after the GitHub Pages SPA redirect from
+      // public/404.html (see that file for why this exists). Must run before
+      // React Router reads window.location, so it stays inline + synchronous.
+      (function () {
+        var search = window.location.search;
+        if (search[1] === '/') {
+          var decoded = search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            });
+          window.history.replaceState(null, '', decoded[0] + (decoded[1] ? '?' + decoded[1] : '') + window.location.hash);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

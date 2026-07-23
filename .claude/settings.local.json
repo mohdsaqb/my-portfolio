@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(npm install *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(npm run *)",
+      "Bash(npx oxlint *)",
+      "Read(//tmp/**)",
+      "Skill(claude-in-chrome)",
+      "Bash(curl -s http://localhost:5183/)",
+      "Bash(kill %1)",
+      "Bash(jobs)"
+    ]
+  }
+}
