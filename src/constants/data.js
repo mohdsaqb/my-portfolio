@@ -37,7 +37,7 @@ export const SOCIAL_LINKS = [
 
 export const CONTACT_CARDS = [
   { label: 'Email', value: 'mo.saqib369@gmail.com', href: 'mailto:mo.saqib369@gmail.com', icon: FiMail },
-  { label: 'LinkedIn', value: 'mo-saqib', href: 'https://linkedin.com/mo-saqib', icon: FiLinkedin },
+  { label: 'LinkedIn', value: 'mo-saqib', href: 'https://linkedin.com/in/mo-saqib/', icon: FiLinkedin },
   { label: 'GitHub', value: 'mohdsaqb', href: 'https://github.com/mohdsaqb', icon: FiGithub },
   { label: 'LeetCode', value: 'mosaqib369', href: 'https://leetcode.com/mosaqib369', icon: SiLeetcode },
   { label: 'X (Twitter)', value: '@Mohd_Saqib_', href: 'https://x.com/Mohd_Saqib_', icon: FiTwitter },

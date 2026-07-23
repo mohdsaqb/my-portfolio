@@ -2,9 +2,6 @@ import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import {
-  FiCode,
-} from 'react-icons/fi';
-import {
   SiReact,
   SiNodedotjs,
   SiMongodb,
@@ -12,6 +9,7 @@ import {
   SiJavascript,
   SiExpress,
 } from 'react-icons/si';
+import profilePic from '../../assets/profile.png';
 
 const ORBIT_ICONS = [
   { Icon: SiReact, color: '#61DAFB', radius: 150, duration: 20, offset: 0 },
@@ -76,9 +74,13 @@ export default function TechOrbit() {
         <motion.div
           animate={{ y: [0, -14, 0] }}
           transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-          className="relative z-10 flex h-28 w-28 sm:h-36 sm:w-36 items-center justify-center rounded-3xl gradient-border glass shadow-glow"
+          className="relative z-10 flex h-28 w-28 sm:h-36 sm:w-36 items-center justify-center overflow-hidden rounded-3xl gradient-border glass shadow-glow"
         >
-          <FiCode className="text-4xl sm:text-5xl text-gradient" />
+          <img
+            src={profilePic}
+            alt="Profile"
+            className="h-full w-full object-cover"
+          />
         </motion.div>
 
         {ORBIT_ICONS.map(({ Icon, color, radius, duration, offset }, i) => (
