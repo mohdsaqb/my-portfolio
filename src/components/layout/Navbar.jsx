@@ -48,7 +48,7 @@ export default function Navbar() {
           duration={500}
           className="cursor-pointer font-display text-xl font-bold text-white"
         >
-          Mohd<span className="text-gradient">.Saqib</span>
+          Mohd<span className="text-gradient">Saqib</span>
         </Link>
 
         <ul className="hidden lg:flex items-center gap-1">
